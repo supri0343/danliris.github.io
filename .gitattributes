@@ -1,1 +1,1 @@
-'app.bundle.js' filter=lfs diff=lfs merge=lfs -text
+app.bundle.js filter=lfs diff=lfs merge=lfs -text
