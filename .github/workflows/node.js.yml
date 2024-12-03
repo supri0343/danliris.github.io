@@ -28,5 +28,7 @@ jobs:
           git add app.bundle.js
           git commit -m "Rejoined app.bundle.js"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
