@@ -21,4 +21,12 @@ jobs:
         run: |
           cat app.bundle.js.part.* > app.bundle.js
 
+      - name: Commit joined file
+        run: |
+          git config user.name "danliris"
+          git config user.email "it.software@danliris.com"
+          git add app.bundle.js
+          git commit -m "Rejoined app.bundle.js"
+          git push
+
 
